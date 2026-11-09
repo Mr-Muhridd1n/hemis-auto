@@ -1,0 +1,24 @@
+{
+  "version": "2026.11.09",
+  "announcement": "",
+  "baseUrl": "https://hemis.camuf.uz",
+  "maxProfile": null,
+  "profiles": {
+    "ehtiyotkor": { "minDelay": 2500, "maxDelay": 5000, "burst": 60, "burstPause": 90000, "hourly": 600 },
+    "oddiy": { "minDelay": 1500, "maxDelay": 3500, "burst": 100, "burstPause": 60000, "hourly": 1000 },
+    "tez": { "minDelay": 700, "maxDelay": 1600, "burst": 150, "burstPause": 30000, "hourly": 1800 }
+  },
+  "modules": {
+    "guruhga-biriktirish": {
+      "department": "1",
+      "eduTypes": "11,12"
+    },
+    "guruhdan-guruhga": {
+      "department": "1",
+      "educationForm": "11",
+      "levels": { "2022": ["5-kurs", "9-semestr"], "2023": ["4-kurs", "7-semestr"], "2024": ["3-kurs", "5-semestr"], "2025": ["2-kurs", "3-semestr"] },
+      "groupAliases": { "D": "DI" },
+      "lock": []
+    }
+  }
+}
